@@ -1,0 +1,123 @@
+.main-container {
+    justify-content: center;
+    height: 95vh;
+    }
+    .container {
+    background: #0052cc;
+    width: 27%;
+    height: 15.2rem;
+    }
+    .main-container,.area {
+    background-color: #ffff;
+    }
+    .main-container,.sub-container {
+    display: flex;
+    align-items: center;
+    }
+    .container,.sub-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .sub-container,.btn-primary,.btn-secondary {
+    color: #fff;
+    }
+    .heading,.text {
+    margin-left: 0.4rem;
+    }
+    .sub-container {
+    background-image: linear-gradient(-180deg, 	 #80b3ff 0%,  #0052cc 100%);
+    box-shadow: 0 -1.7rem 2rem  #0052cc inset, 0 0.25rem 0.5rem 0 #80b3ff inset;
+    height: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem ;
+    }
+    .content {
+    background: #ece9d8 ;
+    height: 13rem;
+    margin: 0 3px 10px 3px;
+    }
+    .btn-primary {
+    left: 58%;
+    background-image: linear-gradient(-180deg, 	 #ffffff 0%, #ff0000 100%);
+    box-shadow: 
+    0 -0.25rem 1.5rem #ff0000 inset,
+    0 0.25rem 0.5rem 0 	 #ffffff inset;
+    }
+    .btn-secondary{
+    left: 57.5%;
+    background-image: linear-gradient(-180deg, 	 #ffffff 0%, #0052cc 100%);
+    box-shadow: 0 -0.25rem 1.5rem #0052cc inset,0rem 0.25rem 0.5rem 0 	 #ffffff inset;
+    }
+    .btn-container{
+    display:flex;
+    position: absolute;
+    left: 57%;
+    top: 37%;
+    height: 12rem;
+    flex-direction: column;
+    }
+    .btn-new {
+    padding: 0 0.4rem 0 0.4rem;
+    text-align: center;
+    }
+    .btn-new:hover{
+    outline: 1px solid #0000cc;
+    outline-offset: 1.8px;
+    }
+    .area{
+    border: 1px solid #808080;
+    margin: 0.6rem 0 0 0.5rem;
+    width: 70%;
+    height: 7.7rem;
+    }
+    .text{
+    top: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    }
+    .btn-last {
+    margin: 3.44rem 0 0 0;
+    }
+    .btn-bottom {
+    border: 1px solid #000000;
+    margin: 1.7rem 0 0 12rem;
+    }
+    .btn-primary,.btn-secondary {
+    border-radius: 0.3rem;
+    padding: 0px 6px 1px 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    }
+    .btn-last,.btn-new,.btn-bottom {
+    border-radius: 3px;
+    margin-bottom: 0.7rem;
+    background-color: #ffff;
+    }
+    .btn-primary,.btn-secondary,.text,.area{
+    position: relative;
+    }
+    .btn-new ,.btn-last {
+    border: 1px dotted #000000;
+    }
+    .btn-last,.btn-bottom {
+    padding: 0 1rem 0 1rem;
+    }
+    @media screen and (max-width:1336px) and (min-width: 0px){
+    .container{
+    width: 23rem;
+    height: 15.2rem;
+    }
+    .btn-container {
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    margin-left: 1rem;
+    }
+    .area{
+    margin-right: 1rem;
+    }
+    }
