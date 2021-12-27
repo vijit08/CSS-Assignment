@@ -12,20 +12,38 @@
             <div class="container">
                 <div class="sub-container">
                     <div class="heading">Custom Shows</div>
-                    <button class="btn-secondary" ><span>?</span></button>
-                    <button class="btn-primary"><span>X</span></button>
+                    <button type="button" class="btn-secondary" id="help" name="Help" >
+                        <div class="primary-text">?</div>
+                    </button>
+                    <button type="button" class="btn-primary" id="end" name="End">
+                        <div class="primary-text">X</div>
+                    </button>
                 </div>
                 <div class="content">
-                    <span class="text">C<u>u</u>stom shows </span>
+                    <span class="text">C<u>u</u>stom shows 
+                    </span>
                     <div class="area"></div>
                     <span class="btn-container">
-                    <button class="btn-new outline" ><u>N</u>ew...</button>
-                    <button class="btn-new" disabled=true><u>E</u>dit...</button>
-                    <button class="btn-new" disabled=true><u>R</u>emove...</button>
-                    <button class="btn-new" disabled=true>Cop<u>y</u></button>
-                    <button class="btn-last" disabled=true><u>S</u>how</button>
+
+                    <button type="button" class="btn-new outline" id="new" name="New" >
+                        <u>N</u>ew...
+                    </button>
+                    <button type="button" class="btn-new" disabled=disabled  id="edit" name="Edit">
+                        <u>E</u>dit...
+                    </button>
+                    <button type="button" class="btn-new" disabled=disabled id="remove" name="Remove">
+                        <u>R</u>emove...
+                    </button>
+                    <button type="button" class="btn-new" disabled=disabled id="copy" name="Copy">Cop
+                        <u>y</u>
+                    </button>
+                    <button type="button" class="btn-last" disabled=disabled id="show" name="Show">
+                        <u>S</u>how
+                    </button>
                     </span>
-                    <button class="btn-bottom" ><u>C</u>lose</button>
+                    <button type="button" class="btn-bottom"  id="close" name="Close">
+                        <u>C</u>lose
+                    </button>
                 </div>
             </div>
         </div>
