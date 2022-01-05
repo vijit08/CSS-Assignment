@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    </style>
+</head>
+<body>
+    <section class="main-container display-flex">
+        <div class="sub-container" >
+            <div class="top-bar">
+                <div class="top-text fonts">Custom Shows</div>
+                <div class="title-bar">
+                    <button aria-label="Help" class="common-btn question-btn " id="question" name="question">&#63;</button>
+                    <button aria-label="Close" class="common-btn close-one" id="close" name="close">&#10005;</button>
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="upper">
+                    <div class="upper-left fonts">
+                        <p class="para">C<span class="underline">u</span>stom Shows: </p>
+                        <div class="area" tabindex="0"></div>
+                    </div>
+                        <div class="btn-container display-flex">
+                          <button class="btn btn-new focused fonts" id="new_btn" name="new_btn" tabindex="0"><span class="underline">N</span>ew...</button>
+                          <button class="btn btn-new fonts" id="edit_btn" name="edit_btn" disabled><span class="underline">E</span>dit...</button>
+                          <button class="btn btn-new fonts" id="remove_btn" name="remove_btn" disabled><span class="underline">R</span>emove</button>
+                          <button class="btn fonts" id="copy_btn" name="copy_btn" disabled>Cop<span class="underline">y</span>...</button>
+                        </div>
+                    </div> 
+                    <div class="lower-content ">
+                         <div class="btn-lower-group">
+                            <button class="btn close-btn fonts" id="close_btn" name="close_btn" ><span class="underline">C</span>lose</button>
+                            <button class="btn show-btn fonts" id="show_btn" name="show_btn" disabled><span class="underline">S</span>how...</button>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,224 @@
+.main-container {
+  width: 90vw;
+  height: 80vh;
+  font-size: 1rem;
+}
+
+.sub-container,
+.title-bar,
+.upper{
+  width: fit-content;
+  height: fit-content;
+}
+
+.sub-container {
+  background: #ece9d8;
+  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9,inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda,inset 3px 3px #0855dd;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0 0 3px;
+}
+
+.display-flex,
+.btn-container,
+.top-bar {
+  align-items: center;
+}
+
+.display-flex,
+.top-bar,
+.upper {
+  display: flex;
+}
+
+.display-flex {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top-bar {
+  font-family: Trebuchet MS;
+  background: linear-gradient(180deg,#0997ff,#0053ee 17%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+  border-top: 1px solid #0831d9;
+  border-left: 1px solid #0831d9;
+  border-right: 1px solid #001ea0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-shadow: 1px 1px #0f1089;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.title-bar {
+  display: inline;
+  position: relative;
+  left: 0.3rem;
+}
+
+.common-btn {
+  width: 2vw;
+  height: 2vw;
+}
+
+.close-one,
+.top-text,
+.question-btn {
+  color: #ffff;
+}
+
+.close-one,
+.question-btn {
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 1em;
+  border: 1px solid #ffff;
+  width: fit-content;
+  height: fit-content;
+}
+
+.close-one {
+  padding: 0 6px 2px 6px;
+  margin-right: 0;
+  background-image: linear-gradient(-180deg, #ff5c33 0%, #ff471a 100%);
+  box-shadow: 1 -0.25rem 1.5rem #ffffff inset,0 0.25rem 0.5rem 0 #ff5c33 inset;
+}
+
+.question-btn {
+  padding: 2.7px 7px 2px 7px;
+  background-image: linear-gradient(-180deg, #ffffff 0%, #0052cc 100%);
+  box-shadow: 0 -0.25rem 1.5rem #0052cc inset,0 0.25rem 0.5rem 0 #ffffff inset;
+}
+
+.para {
+  margin: 6px 2px 6px 0;
+}
+
+.fonts {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.upper {
+  font-size: 0.8rem;
+  padding: 8px;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.btn-new {
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  border: 1px solid #003c74;
+  background: linear-gradient(180deg, #fff 0%, #f5f5f0 100%);
+  box-shadow: none;
+  border-radius: 3px;
+  min-width: 75px;
+  min-height: 23px;
+  padding: 0 12px;
+}
+
+.focused {
+  box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea,inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+
+.area {
+  width: 20vw;
+  height: 20vh;
+  background: #ffff;
+  border: 1px solid rgb(2, 2, 141);
+}
+
+.btn-container {
+  flex-direction: column;
+  justify-content: start;
+  font-size: 0.7em;
+  margin-top: 12px;
+  margin-left: 10px;
+  height: fit-content;
+}
+
+.btn:disabled {
+  border: 1px solid #d6d6c2;
+  background: #f5f5f0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.btn-lower-group {
+  float: right;
+  position: relative;
+  right: 0.8rem;
+  left: 0;
+  margin: 10px 8px 10px 0;
+}
+
+.upper-left {
+  padding-left: 4px;
+}
+
+.show-btn {
+  margin-left: 5px;
+}
+
+.close-btn {
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 0;
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2500px) and (min-height: 1000px) and (max-height: 2000px) {
+  .sub-container {
+    width: 20vw;
+    height: 5vw;
+    block-size: fit-content;
+    font-size: 0.9em;
+  }
+
+  .area {
+    width: 15.5vw;
+    height: 7vw;
+  }
+
+  .btn-container {
+    margin-left: 15px;
+    justify-content: space-evenly;
+    height: 1rem;
+    position: relative;
+    top: 3.5rem;
+  }
+
+  .btn {
+    font-size: 2em;
+    max-width: 2vw;
+  }
+
+  .btn-lower-group {
+    margin: 10px 18px 10px 0;
+  }
+
+  .show-btn,
+  .close-btn,
+  .top-text,
+  .para {
+    font-size: 1.2em;
+  }
+
+  .show-btn {
+    margin-left: 0;
+    
+  }
+
+  .close-btn {
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 10px;
+    
+  }
+}
